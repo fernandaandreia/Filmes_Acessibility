@@ -15,11 +15,13 @@ class DetalhesViewController: UIViewController {
     var filmeEscolhido:[String:Any]? = nil
     let recuperarDadosFilmeAPI = APIRequisicao()
     
+    
     // MARK: IBOutlets
     @IBOutlet weak var imagemPoster: UIImageView!
     @IBOutlet weak var titulo: UILabel!
     @IBOutlet weak var sinopse: UILabel!
     @IBOutlet weak var dataDaEstreia: UILabel!
+    @IBOutlet weak var buttonHome: UIButton!
     
     // MARK: IBAction
     @IBAction func botaoVoltarHome(_ sender: UIButton) {
@@ -39,9 +41,14 @@ class DetalhesViewController: UIViewController {
     
     func setupAcessibility(){
         titulo.accessibilityTraits = .header
+        
         sinopse.isAccessibilityElement = true
         sinopse.accessibilityLabel = "Esta label possui recurso de acessibilidade - Voice Over"
         sinopse.accessibilityTraits = .staticText
+        
+        buttonHome.isAccessibilityElement = true
+        buttonHome.accessibilityTraits = .button
+        buttonHome.accessibilityLabel = "Este botão possibilita que você retorne a tela principal"  
     }
     
     

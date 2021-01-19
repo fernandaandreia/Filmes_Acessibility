@@ -172,6 +172,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="buttonHome" destination="rn1-96-JiR" id="Uq2-4F-6t7"/>
                         <outlet property="dataDaEstreia" destination="9Tb-WR-3ZU" id="OA1-fc-SBO"/>
                         <outlet property="imagemPoster" destination="rxF-F0-QYJ" id="1WG-1I-j24"/>
                         <outlet property="sinopse" destination="AMP-wz-9gw" id="ne9-JC-vi1"/>
