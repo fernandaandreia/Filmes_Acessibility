@@ -1,2 +1,2 @@
-# MVVM-AppFilmes
-Refatorar Projeto Filmes da arquitetura MVC para MVVM.
+# AppFilmes - Acessibilidade
+Incluir recursos de acessibilidade (VoiceOver) no projeto de filmes
